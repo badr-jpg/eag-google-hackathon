@@ -1,0 +1,2 @@
+A hackathon event where participants must develop a product that solves a problem in a short amount of time.
+The challenge is to develop an MVP of a product that leverages the power of Google Cloud Vertex AI model to solve real-world problems. To participate in the hackathon, you need to create or join a team on the lablab platform.
