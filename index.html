@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+	<header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">My Profile</a></li>
+        <li><a href="#">My Surveys</a></li>
+        <li><a href="#">Setteings</a></li>
+				<li><a href="#">Logout</a></li>
+
+      </ul>
+    </nav>
+	</header>
+
+	<main>
+
+		<div class="hero" id="startheader">
+			<h1>Survey Generator</h1>
+			<p>Create beautiful surveys in minutes</p>
+			<button id="get-started-button">Get Started</button>
+		</div>
+
+		<div class="card" id="step-1">
+			<section class="survey-details">
+				<h2>Step 1: Survey Details</h2>
+				<form>
+					<label for="Survey-description">Survey Description:</label>
+					<textarea id="Survey-description" name="Survey-description" placeholder="Descipe the event you want to generate survey for, you can write somthing like:
+A hackathon event where participants must develop a product that solves a problem in a short amount of time. The challenge is to develop an MVP of a product that leverages the power of Google Cloud Vertex AI model to solve real-world problems. To participate in the hackathon, you need to create or join a team on the lablab platform." required></textarea>
+					<label for="survey-goal">Survey Goal:</label>
+					<input type="text" id="survey-goal" name="survey-goal" required>
+					<div class="input-group">
+						<label for="validity-period">Validity Period (in days):</label>
+						<input type="number" id="validity-period" name="validity-period" min="1" max="30" required>
+						<label for="num-questions">Number of Questions:</label>
+						<input type="number" id="num-questions" name="num-questions" min="1" max="10" required>
+					</div>
+					<button type="button" class="next-button" id="nextcard1">Next</button>
+				</form>
+			</section>
+		</div>
+
+		<div class="card" id="step-2">
+			<section class="participant-info">
+				<h2>Step 2: Participant Information</h2>
+				<form>
+					<label for="participant-file">Participant CSV File:</label>
+					<div class="file-upload">
+						<input type="file" id="participant-file" name="participant-file" accept=".csv" required>
+						<span>Choose File</span>
+					</div>
+					<p class="upload-desc"> </p>
+					<button type="button" class="prev-button"  id="precard0">Previous</button>
+					<button type="button" class="next-button" id="nextcard2">Next</button>
+				</form>
+			</section>
+		</div>
+		<div class="card" id="step-3">
+			<section class="survey-type">
+				<h2>Step 3: Survey Type</h2>
+				<form>
+					<label>Select Survey Type:</label>
+					<div class="radio-buttons">
+						<label>
+							<input type="radio" name="survey-type" value="standard">
+							Standard Survey
+						</label>
+						<label>
+							<input type="radio" name="survey-type" value="ai">
+							AI Survey
+						</label>
+					</div>
+
+					<button type="button" class="prev-button" id="precard1">Previous</button>
+					<button type="submit" class="generate-button">Generate Survey</button>
+				</form>
+			</section>
+		</div>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+
+
+/* Global styles */
+
+* {
+	box-sizing: border-box;
+}
+
+
+input[type="text"]::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.hero {
+	margin: auto;
+	background-color: #333;
+	color: #fff;
+}
+
+nav ul {
+	list-style: none;
+	padding-bottom: 150px;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav li a {
+	color: #333;
+	text-decoration: none;
+}
+
+.hero {
+	padding: 100px 20px;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 48px;
+	margin: 0;
+}
+
+.hero p {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+button {
+	background-color: #007aff;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px 24px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+	background-color: #0061ff;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+.file-upload {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	color: #333;
+	cursor: pointer;
+	display:  inline-grid;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding: 16px 24px;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.file-upload:hover {
+	background-color: #f2f2f2;
+}
+
+.file-upload span {
+	display: inline-block;
+	margin-right: 16px;
+}
+
+.upload-desc {
+	font-size: 14px;
+	margin: 0;
+}
+
+.radio-buttons {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.radio-buttons label {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+	cursor: pointer;
+}
+
+.radio-buttons input[type="radio"] {
+	margin-right: 8px;
+}
+
+/* Card styles */
+
+.card {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	display: none;
+	margin: 20px auto;
+	max-width: 800px;
+	padding: 40px;
+}
+
+.card.active {
+	display: block;
+}
+
+.card h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.card label {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.card input[type="text"],
+.card textarea,
+.card input[type="number"] {
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	padding: 8px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.card textarea {
+	height: 120px;
+}
+
+.card .input-group {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.card .input-group input[type="number"] {
+	flex-basis: 20%;
+}
+
+.card .next-button,
+.card .prev-button {
+	background-color: #007aff;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px 24px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.card .next-button:hover,
+.card .prev-button:hover {
+	background-color: #0061ff;
+}
+
+.card .generate-button {
+	background-color: #4cd964;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px 24px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.card .generate-button:hover {
+	background-color: #44c662;
+}
