@@ -1,6 +1,6 @@
 import json
 import os
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, redirect, url_for
 
 app = Flask(__name__)
 
@@ -33,10 +33,19 @@ def generate_survey_questions(jsons):
 def survey():
     if request.method == 'POST':
         # Process the survey responses
+        res = ""
+        survey_name = request.args.get('survey_name')
+        print(type(survey_name))
+        if(survey_name == None):
+            survey_name = 'Survey-Alex.txt'            
+            
+        result_file =  "Result-" + survey_name
         for key, value in request.form.items():
             # Store the responses or perform any necessary actions
-            print(f"Question {key}: {value}")
-            
+            res = res + "\n" f"Question: {key}: Answer: {value}"
+        
+        with open(result_file, 'w') as f:
+            f.write(res)
         
         return "Thank you for completing the survey!"
     
@@ -49,19 +58,19 @@ def survey():
             # Example: Read the file contents
                 contents = f.read()
                 survey_strings.append((file, contents))
-        file_path = '/home/ns/Documents/google-vertex-ai-hackathon/eag-google-hackathon-new/eag-google-hackathon/eag-google-hackathon/app/response.txt'
+        file_path = 'Survey-Alex.txt'
+        # request.args.set(survey_name='Survey-Alex.txt')
         jsons = read_jsons_from_file(file_path)
         questions = generate_survey_questions(jsons)
-        print(survey_strings)
         return render_template('survey.html', questions=questions, surveys=survey_strings)
 
-# @app.route('/survey')
-# def survey():
-#     survey_name = request.args.get('name')
-#     # Load the survey file based on the survey_name variable
-#     # Process the survey data and pass it to the template
-#     # Return the rendered template with the survey data
-#     return render_template('survey.html', questions=...)
+@app.route('/survey')
+def survey_sel():
+    survey_name = request.args.get('name')
+    # Load the survey file based on the survey_name variable
+    # Process the survey data and pass it to the template
+    # Return the rendered template with the survey data
+    return redirect(url_for('survey', survey_name=survey_name))
 
 if __name__ == '__main__':
     app.run()
