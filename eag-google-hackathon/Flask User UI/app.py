@@ -1,4 +1,5 @@
 import json
+import os
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
@@ -35,15 +36,32 @@ def survey():
         for key, value in request.form.items():
             # Store the responses or perform any necessary actions
             print(f"Question {key}: {value}")
+            
         
         return "Thank you for completing the survey!"
     
     else:
+        survey_files = [filename for filename in os.listdir('.') if filename.startswith('Survey')]
+        survey_strings = []
+        for file in survey_files:
+            with open(file, 'r') as f:
+            # Process each survey file here
+            # Example: Read the file contents
+                contents = f.read()
+                survey_strings.append((file, contents))
         file_path = '/home/ns/Documents/google-vertex-ai-hackathon/eag-google-hackathon-new/eag-google-hackathon/eag-google-hackathon/app/response.txt'
         jsons = read_jsons_from_file(file_path)
         questions = generate_survey_questions(jsons)
-        print(questions)
-        return render_template('survey.html', questions=questions)
+        print(survey_strings)
+        return render_template('survey.html', questions=questions, surveys=survey_strings)
+
+# @app.route('/survey')
+# def survey():
+#     survey_name = request.args.get('name')
+#     # Load the survey file based on the survey_name variable
+#     # Process the survey data and pass it to the template
+#     # Return the rendered template with the survey data
+#     return render_template('survey.html', questions=...)
 
 if __name__ == '__main__':
     app.run()

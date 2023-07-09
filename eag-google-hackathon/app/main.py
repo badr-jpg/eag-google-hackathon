@@ -114,3 +114,8 @@ async def handle_chat(human_msg: str):
 
     # Return the model's response
     return {"response": response.text}
+
+# Analyze the results of the model with sentiment analysis. 
+def anaylze():
+    # Read results from each completed survey and evaluate
+    return 0
