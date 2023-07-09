@@ -2,17 +2,17 @@ You are tasked with generating a set of survey questions for a Hackathon Event t
 The four sections are "Scenario Information", "Survey Information", "Participant Details" and "Goal". You will use this information to genearte the survey questions.
 
 
-Scenario Information: <SCENARIO_INFO>
+Scenario Information: The scenario is a hackathon event where participants must develop a product that solves a problem in a short amount of time.
 
 
-Survey Information: <SURVEY_INFO>
+Survey Information: 
 
 
-Goal : <GOAL>
+Goal : Determine how the participants felt about the challenge. Was it too hard, too easy, unclear? The questions should help us evaluate how well recieved the hackathon was.
 
 
 
-From this, you will generate <NUM_QUESTIONS> with the above goal, survey information and Scenario information. For each question, generate 5 possible multiple choice answers by following the below template JSON:
+From this, you will generate 10 with the above goal, survey information and Scenario information. For each question, generate 5 possible multiple choice answers by following the below template JSON:
 
 {"Question": "This is a test question", "answer1": "example answer 1", "answer2": "example answer 2", "answer3": "example answer 3", "answer4": "example answer 4", "answer5": "other"}
 

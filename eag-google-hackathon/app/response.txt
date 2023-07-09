@@ -1,43 +1,10 @@
-Scenario Information:
-Hackathon event where participants can submit projects to a panel of judges for evaluation.
-
-Survey Information:
-This survey is designed to collect feedback on your experience at the hackathon event.
-
-Goal:
-To get feedback on the participants' experience at the hackathon event.
-
-Question 1:
-How would you rate the overall quality of the event?
-
-Options:
-[1]. Excellent
-[2]. Good
-[3]. Fair
-[4]. Poor
-
-Question 2:
-What did you enjoy most about the event?
-
-Options:
-[1]. The opportunity to collaborate with other participants
-[2]. The chance to learn new skills
-[3]. The chance to compete against other participants
-[4]. The opportunity to win prizes
-
-Question 3:
-What could be improved about the event?
-
-Options:
-[1]. The timing of the event
-[2]. The location of the event
-[3]. The variety of projects
-[4]. The quality of the judges
-
-Question 4:
-Would you recommend this event to others?
-
-Options:
-[1]. Yes
-[2]. No
-[3]. I'm not sure
+{"Question": "How would you describe the difficulty of the challenge?", "answer1": "Too easy", "answer2": "Too hard", "answer3": "Just right", "answer4": "I don't know", "answer5": "other"}
+{"Question": "How clear were the instructions for the challenge?", "answer1": "Very clear", "answer2": "Somewhat clear", "answer3": "Not clear at all", "answer4": "I don't know", "answer5": "other"}
+{"Question": "How would you describe the overall experience of the hackathon?", "answer1": "Very positive", "answer2": "Somewhat positive", "answer3": "Negative", "answer4": "I don't know", "answer5": "other"}
+{"Question": "What did you like most about the hackathon?", "answer1": "The opportunity to work on a team", "answer2": "The chance to learn new things", "answer3": "The social aspect", "answer4": "I don't know", "answer5": "other"}
+{"Question": "What did you like least about the hackathon?", "answer1": "The time pressure", "answer2": "The lack of resources", "answer3": "The competition", "answer4": "I don't know", "answer5": "other"}
+{"Question": "What would you change about the hackathon?", "answer1": "I would make it longer", "answer2": "I would provide more resources", "answer3": "I would make it less competitive", "answer4": "I don't know", "answer5": "other"}
+{"Question": "Would you recommend the hackathon to others?", "answer1": "Yes", "answer2": "No", "answer3": "I don't know", "answer4": "I don't know", "answer5": "other"}
+{"Question": "What are your suggestions for improving the hackathon?", "answer1": "I would make it longer", "answer2": "I would provide more resources", "answer3": "I would make it less competitive", "answer4": "I don't know", "answer5": "other"}
+{"Question": "What are your thoughts on the hackathon?", "answer1": "I had a great time", "answer2": "I learned a lot", "answer3": "I made new friends", "answer4": "I don't know", "answer5": "other"}
+{"Question": "Do you have any other comments or suggestions?", "answer1": "None", "answer2": "I would like to see more hackathons", "answer3": "I would like to see more hackathons in my area", "answer4": "I don't know", "answer5": "other"}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+  </head>
+  <body>
+    <form method="POST">
+      {% for question, question_num, answer1, answer2, answer3, answer4 in questions %}
+        <h3>Question {{ question_num }}:</h3>
+        <p>{{ question }}</p>
+        <input type="radio" name="{{ question_num }}" value="{{ answer1 }}"> {{ answer1 }}<br>
+        <input type="radio" name="{{ question_num }}" value="{{ answer2 }}"> {{ answer2 }}<br>
+        <input type="radio" name="{{ question_num }}" value="{{ answer3 }}"> {{ answer3 }}<br>
+        <input type="radio" name="{{ question_num }}" value="{{ answer4 }}"> {{ answer4 }}<br>
+      {% endfor %}
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from google.auth import credentials
 from google.oauth2 import service_account
 import google.cloud.aiplatform as aiplatform
-from vertexai.preview.language_models import ChatModel, InputOutputTextPair
+from vertexai.preview.language_models import ChatModel, InputOutputTextPair, TextGenerationModel
 from fastapi.openapi.docs import get_swagger_ui_html, get_redoc_html
 import vertexai
 import json  # add this line
@@ -76,16 +76,16 @@ async def handle_chat(human_msg: str):
     Endpoint to handle chat.
     Receives a message from the user, processes it, and returns a response from the model.
     """
-    chat_model = ChatModel.from_pretrained("chat-bison@001")
+    # chat_model = ChatModel.from_pretrained("chat-bison@001")
     parameters = {
-        "temperature": 0.8,
+        "temperature": 0.9,
         "max_output_tokens": 1024,
         "top_p": 0.8,
         "top_k": 40,
     }
-    chat = chat_model.start_chat(  # Initialize the chat with model
-        # chat context and examples go here
-    )
+    # chat = chat_model.start_chat(  # Initialize the chat with model
+    #     # chat context and examples go here
+    # )
     # Build the prompt
     with open("SurveyInfo.txt", "r") as file:
         survey_info = file.read()
@@ -94,15 +94,18 @@ async def handle_chat(human_msg: str):
     with open("PromptSkeleton.txt", "r") as file:
         prompt = file.read()
     
-    
-    prompt.replace("<SURVEY_INFO>", survey_info)
-    prompt.replace("<SCENARIO_INFO>", scenario_info)
-    prompt.replace("<NUM_QUESTIONS>", "10")
-    prompt.replace("<GOAL>", "Determine how the participants felt about the challenge. Was it too hard, too easy, unclear?")
-
+    prompt_path = "full_prompt.txt"
+    prompt = prompt.replace("<SURVEY_INFO>", survey_info)
+    prompt = prompt.replace("<SCENARIO_INFO>", scenario_info)
+    prompt = prompt.replace("<NUM_QUESTIONS>", "10")
+    prompt = prompt.replace("<GOAL>", "Determine how the participants felt about the challenge. Was it too hard, too easy, unclear? The questions should help us evaluate how well recieved the hackathon was.")
+    with open(prompt_path, "w") as file:
+        file.write(str(prompt))
 
     # Send the human message to the model and get a response
-    response = chat.send_message(prompt, **parameters)
+    model = TextGenerationModel.from_pretrained("text-bison@001")
+    response = model.predict(prompt, **parameters)
+    # response = chat.send_message(prompt, **parameters)
 
     file_path = "response.txt"  # Replace with the actual path to your file
     with open(file_path, "w") as file:
