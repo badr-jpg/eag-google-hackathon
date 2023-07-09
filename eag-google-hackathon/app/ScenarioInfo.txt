@@ -1,0 +1,1 @@
+The scenario is a hackathon event where participants must develop a product that solves a problem in a short amount of time.

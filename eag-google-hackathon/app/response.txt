@@ -1,0 +1,43 @@
+Scenario Information:
+Hackathon event where participants can submit projects to a panel of judges for evaluation.
+
+Survey Information:
+This survey is designed to collect feedback on your experience at the hackathon event.
+
+Goal:
+To get feedback on the participants' experience at the hackathon event.
+
+Question 1:
+How would you rate the overall quality of the event?
+
+Options:
+[1]. Excellent
+[2]. Good
+[3]. Fair
+[4]. Poor
+
+Question 2:
+What did you enjoy most about the event?
+
+Options:
+[1]. The opportunity to collaborate with other participants
+[2]. The chance to learn new skills
+[3]. The chance to compete against other participants
+[4]. The opportunity to win prizes
+
+Question 3:
+What could be improved about the event?
+
+Options:
+[1]. The timing of the event
+[2]. The location of the event
+[3]. The variety of projects
+[4]. The quality of the judges
+
+Question 4:
+Would you recommend this event to others?
+
+Options:
+[1]. Yes
+[2]. No
+[3]. I'm not sure

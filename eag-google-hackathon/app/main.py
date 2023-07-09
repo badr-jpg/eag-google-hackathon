@@ -86,7 +86,28 @@ async def handle_chat(human_msg: str):
     chat = chat_model.start_chat(  # Initialize the chat with model
         # chat context and examples go here
     )
+    # Build the prompt
+    with open("SurveyInfo.txt", "r") as file:
+        survey_info = file.read()
+    with open("ScenarioInfo.txt", "r") as file:
+        scenario_info = file.read()
+    with open("PromptSkeleton.txt", "r") as file:
+        prompt = file.read()
+    
+    
+    prompt.replace("<SURVEY_INFO>", survey_info)
+    prompt.replace("<SCENARIO_INFO>", scenario_info)
+    prompt.replace("<NUM_QUESTIONS>", "10")
+    prompt.replace("<GOAL>", "Determine how the participants felt about the challenge. Was it too hard, too easy, unclear?")
+
+
     # Send the human message to the model and get a response
-    response = chat.send_message(human_msg, **parameters)
+    response = chat.send_message(prompt, **parameters)
+
+    file_path = "response.txt"  # Replace with the actual path to your file
+    with open(file_path, "w") as file:
+        file.write(str(response))
+
+
     # Return the model's response
     return {"response": response.text}
