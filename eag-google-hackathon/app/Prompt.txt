@@ -1,0 +1,18 @@
+You are tasked with generating a set of survey questions for a <SCENARIO> to get feedback from users about their experience. Below, you will find three sections that describe the task and the information that the survey is based on. 
+The three sections are "Scenario Information", "Survey Information" and "Goal": 
+
+
+Scenario Information: <SCENARIO_INFO>
+
+
+Survey Information: <SURVEY_INFO>
+
+
+Goal : <GOAL>
+
+
+From this, generate <NUM_QUESTIONS> with the above goal, survey information and Scenario information. For each question, generate 4 possible multiple choice answers by following the below template JSON:
+
+{Question: "This is a test question", answer1: "example answer 1", answer2: "example answer 2", answer3: "example answer 3"}
+
+
