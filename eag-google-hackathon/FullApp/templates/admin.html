@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Application</title>
+    <style>
+        body {
+            background-color: #292B2F;
+            color: #E6E6E6;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            color: #FFFFFF;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #FFFFFF;
+        }
+        
+        select, input[type="file"] {
+            width: 200px;
+            padding: 5px;
+            border: none;
+            background-color: #40444B;
+            color: #E6E6E6;
+            margin-bottom: 10px;
+        }
+        
+        button[type="submit"] {
+            background-color: #7289DA;
+            color: #E6E6E6;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #677BC4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Survey Application</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="survey_type">Survey Type:</label>
+        <select name="survey_type" id="survey_type">
+            <option value="event">Event</option>
+            <option value="product">Product</option>
+            <option value="website">Website</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="survey_details">Survey Details:</label>
+        <textarea name="survey_details" id="survey_details" rows="4"></textarea>
+        <br>
+        <label for="goal">Goal:</label>
+        <textarea name="goal" id="goal" rows="4"></textarea>
+        <label for="participant_info">Participant Information:</label>
+        <input type="file" name="participant_info" id="participant_info">
+        <br>
+        <label for="survey_mode">Survey Mode:</label>
+        <select name="survey_mode" id="survey_mode">
+            <option value="standard">Standard</option>
+            <option value="ai">AI</option>
+        </select>
+        <br>
+        <button type="submit">Generate Survey</button>
+    </form>
+</body>
+</html>

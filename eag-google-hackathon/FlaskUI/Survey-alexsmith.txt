@@ -1,0 +1,80 @@
+{
+    "Question": "How did you feel about the difficulty of the challenge?",
+    "answer1": "Too easy",
+    "answer2": "Just right",
+    "answer3": "Too hard",
+    "answer4": "I didn't know what to expect",
+    "answer5": "Other"
+  },
+  {
+    "Question": "How did you feel about the clarity of the challenge?",
+    "answer1": "Very clear",
+    "answer2": "Somewhat clear",
+    "answer3": "Not very clear",
+    "answer4": "I didn't understand the challenge",
+    "answer5": "Other"
+  },
+  {
+    "Question": "How did you feel about the support provided by the organizers?",
+    "answer1": "Very helpful",
+    "answer2": "Somewhat helpful",
+    "answer3": "Not very helpful",
+    "answer4": "I didn't get any support",
+    "answer5": "Other"
+  },
+  {
+    "Question": "How did you feel about the overall experience of the hackathon?",
+    "answer1": "Very positive",
+    "answer2": "Somewhat positive",
+    "answer3": "Not very positive",
+    "answer4": "I didn't enjoy the experience",
+    "answer5": "Other"
+  },
+  {
+    "Question": "What was your favorite part of the hackathon?",
+    "answer1": "The challenge itself",
+    "answer2": "The team I worked with",
+    "answer3": "The support from the organizers",
+    "answer4": "The learning experience",
+    "answer5": "Other"
+  },
+  {
+    "Question": "What was your least favorite part of the hackathon?",
+    "answer1": "The challenge itself",
+    "answer2": "The team I worked with",
+    "answer3": "The support from the organizers",
+    "answer4": "The learning experience",
+    "answer5": "Other"
+  },
+  {
+    "Question": "What suggestions do you have for improving the hackathon?",
+    "answer1": "Make the challenge more difficult",
+    "answer2": "Make the challenge more clear",
+    "answer3": "Provide more support to participants",
+    "answer4": "Make the hackathon more fun",
+    "answer5": "Other"
+  },
+  {
+    "Question": "Would you recommend this hackathon to others?",
+    "answer1": "Yes, definitely",
+    "answer2": "Yes, but with some reservations",
+    "answer3": "No, I wouldn't recommend it",
+    "answer4": "I don't know",
+    "answer5": "Other"
+  },
+  {
+    "Question": "Would you participate in another hackathon?",
+    "answer1": "Yes, definitely",
+    "answer2": "Yes, but with some reservations",
+    "answer3": "No, I wouldn't participate",
+    "answer4": "I don't know",
+    "answer5": "Other"
+  },
+  {
+    "Question": "What are your thoughts on the use of artificial intelligence in the financial industry?",
+    "answer1": "I think it has a lot of potential",
+    "answer2": "I think it is a threat to the financial industry",
+    "answer3": "I don't know enough about it to have an opinion",
+    "answer4": "Other",
+    "answer5": "Other"
+  }

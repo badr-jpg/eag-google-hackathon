@@ -1,0 +1,19 @@
+{"Question": "How would you rate the difficulty of the challenge?", "answer1": "Too easy", "answer2": "Just right", "answer3": "Too hard", "answer4": "I don't know", "answer5": "Other"}
+
+{"Question": "How would you rate the clarity of the challenge instructions?", "answer1": "Very clear", "answer2": "Clear", "answer3": "Not clear", "answer4": "Very unclear", "answer5": "Other"}
+
+{"Question": "How would you rate the overall experience of the hackathon?", "answer1": "Very positive", "answer2": "Positive", "answer3": "Negative", "answer4": "Very negative", "answer5": "Other"}
+
+{"Question": "What did you like most about the hackathon?", "answer1": "The challenge", "answer2": "The team", "answer3": "The prizes", "answer4": "The sponsors", "answer5": "Other"}
+
+{"Question": "What did you like least about the hackathon?", "answer1": "The challenge", "answer2": "The team", "answer3": "The prizes", "answer4": "The sponsors", "answer5": "Other"}
+
+{"Question": "What would you improve about the hackathon?", "answer1": "The challenge", "answer2": "The team", "answer3": "The prizes", "answer4": "The sponsors", "answer5": "Other"}
+
+{"Question": "Would you recommend the hackathon to others?", "answer1": "Yes", "answer2": "No", "answer3": "Maybe", "answer4": "I don't know", "answer5": "Other"}
+
+{"Question": "What are your thoughts on the use of Google Cloud Vertex AI model in the hackathon?", "answer1": "I think it was a great idea", "answer2": "I don't think it was a good idea", "answer3": "I don't know enough about it to say", "answer4": "I don't care", "answer5": "Other"}
+
+{"Question": "What are your thoughts on the overall experience of using Google Cloud Vertex AI model?", "answer1": "I think it was a great experience", "answer2": "I don't think it was a good experience", "answer3": "I don't know enough about it to say", "answer4": "I don't care", "answer5": "Other"}
+
+{"Question": "Do you have any other feedback about the hackathon?", "answer1": "Yes", "answer2": "No", "answer3": "I don't know", "answer4": "I don't care", "answer5": "Other"}

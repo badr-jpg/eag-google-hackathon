@@ -1,0 +1,19 @@
+{"Question": "How would you rate the difficulty of the challenge?", "answer1": "Very easy", "answer2": "Easy", "answer3": "Moderate", "answer4": "Difficult", "answer5": "Very difficult"}
+
+{"Question": "How clear were the instructions for the challenge?", "answer1": "Very clear", "answer2": "Clear", "answer3": "Somewhat clear", "answer4": "Not clear", "answer5": "Very unclear"}
+
+{"Question": "How satisfied were you with the prizes?", "answer1": "Very satisfied", "answer2": "Satisfied", "answer3": "Somewhat satisfied", "answer4": "Not satisfied", "answer5": "Very unsatisfied"}
+
+{"Question": "How would you rate the overall experience of the hackathon?", "answer1": "Very positive", "answer2": "Positive", "answer3": "Somewhat positive", "answer4": "Negative", "answer5": "Very negative"}
+
+{"Question": "What did you like most about the hackathon?", "answer1": "The challenge", "answer2": "The prizes", "answer3": "The team", "answer4": "The environment", "answer5": "Other"}
+
+{"Question": "What did you like least about the hackathon?", "answer1": "The challenge", "answer2": "The prizes", "answer3": "The team", "answer4": "The environment", "answer5": "Other"}
+
+{"Question": "What suggestions do you have for improving the hackathon?", "answer1": "Make the challenge easier", "answer2": "Make the challenge harder", "answer3": "Make the instructions clearer", "answer4": "Give better prizes", "answer5": "Other"}
+
+{"Question": "Would you recommend the hackathon to others?", "answer1": "Yes, definitely", "answer2": "Yes, probably", "answer3": "It depends", "answer4": "No, probably not", "answer5": "No, definitely not"}
+
+{"Question": "Would you participate in another hackathon?", "answer1": "Yes, definitely", "answer2": "Yes, probably", "answer3": "It depends", "answer4": "No, probably not", "answer5": "No, definitely not"}
+
+{"Question": "What is your overall feedback on the hackathon?", "answer1": "Very positive", "answer2": "Positive", "answer3": "Somewhat positive", "answer4": "Negative", "answer5": "Very negative"}

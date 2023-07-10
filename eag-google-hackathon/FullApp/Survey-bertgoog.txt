@@ -1,0 +1,11 @@
+```
+{"Question": "How would you rate the difficulty of this course?", "answer1": "Too difficult", "answer2": "Difficult", "answer3": "Moderate", "answer4": "Easy", "answer5": "Too easy"}
+{"Question": "Did you find the lectures helpful?", "answer1": "Very helpful", "answer2": "Somewhat helpful", "answer3": "Not very helpful", "answer4": "Not at all helpful", "answer5": "Other"}
+{"Question": "What was the best thing about this course?", "answer1": "The lectures", "answer2": "The assignments", "answer3": "The projects", "answer4": "The exams", "answer5": "Other"}
+{"Question": "What was the worst thing about this course?", "answer1": "The lectures", "answer2": "The assignments", "answer3": "The projects", "answer4": "The exams", "answer5": "Other"}
+{"Question": "What do you think could be improved about this course?", "answer1": "The lectures", "answer2": "The assignments", "answer3": "The projects", "answer4": "The exams", "answer5": "Other"}
+{"Question": "Would you recommend this course to others?", "answer1": "Yes", "answer2": "No", "answer3": "I'm not sure", "answer4": "Other"}
+{"Question": "What is your overall satisfaction with this course?", "answer1": "Very satisfied", "answer2": "Somewhat satisfied", "answer3": "Not very satisfied", "answer4": "Not at all satisfied", "answer5": "Other"}
+{"Question": "How likely are you to take another course from this instructor?", "answer1": "Very likely", "answer2": "Somewhat likely", "answer3": "Not very likely", "answer4": "Not at all likely", "answer5": "Other"}
+{"Question": "How likely are you to recommend this course to your friends or colleagues?", "answer1": "Very likely", "answer2": "Somewhat likely", "answer3": "Not very likely", "answer4": "Not at all likely", "answer5": "Other"}
+{"Question": "Do you have any other comments or suggestions about this course?", "answer1": "None", "answer2": "Yes", "answer3": "Other"}

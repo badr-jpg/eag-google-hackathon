@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+      }
+
+      .panel {
+        width: 200px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .survey-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .survey-list-item {
+        margin-bottom: 10px;
+      }
+
+      .survey-list-item a {
+        text-decoration: none;
+        color: #333333;
+        font-size: 16px;
+      }
+
+      .survey-list-item a:hover {
+        color: #4CAF50;
+      }
+
+      .survey-container {
+        margin-left: 20px;
+        flex-grow: 1;
+      }
+
+      form {
+        max-width: 600px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      h3 {
+        color: #333333;
+        font-size: 24px;
+        margin-top: 0;
+      }
+
+      p {
+        color: #666666;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      input[type="radio"] {
+        margin-right: 8px;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="panel">
+      <form method="POST">
+        <h3>Surveys</h3>
+        <ul class="survey-list">
+            {% for filename, json in surveys %}
+                <li class="survey-list-item"><a href="/survey?name={{ filename }}">{{ filename }}</a></li>
+            {% endfor %}
+            <!-- Add more survey options as needed -->
+        </ul>
+      </form>
+    </div>
+    <div class="survey-container">
+      <form method="POST">
+        {% for question, question_num, answer1, answer2, answer3, answer4 in questions %}
+          <h3>Question {{ question_num }}:</h3>
+          <p>{{ question }}</p>
+          <input type="radio" name="{{ question_num }}" value="{{ answer1 }}"> {{ answer1 }}<br>
+          <input type="radio" name="{{ question_num }}" value="{{ answer2 }}"> {{ answer2 }}<br>
+          <input type="radio" name="{{ question_num }}" value="{{ answer3 }}"> {{ answer3 }}<br>
+          <input type="radio" name="{{ question_num }}" value="{{ answer4 }}"> {{ answer4 }}<br>
+        {% endfor %}
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

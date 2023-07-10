@@ -1,0 +1,12 @@
+```
+{"Question": "How would you rate the overall experience of the hackathon?", "answer1": "Very positive", "answer2": "Positive", "answer3": "Neutral", "answer4": "Negative", "answer5": "Other"}
+{"Question": "What did you like most about the hackathon?", "answer1": "The opportunity to learn new things", "answer2": "The chance to collaborate with other people", "answer3": "The chance to work on a real-world problem", "answer4": "The prizes", "answer5": "Other"}
+{"Question": "What did you like least about the hackathon?", "answer1": "The time constraints", "answer2": "The difficulty of the challenge", "answer3": "The lack of support from the organizers", "answer4": "The lack of resources", "answer5": "Other"}
+{"Question": "How well did you think the challenge was communicated?", "answer1": "Very well", "answer2": "Well", "answer3": "Neutral", "answer4": "Not well", "answer5": "Other"}
+{"Question": "How difficult did you find the challenge?", "answer1": "Very difficult", "answer2": "Difficult", "answer3": "Neutral", "answer4": "Easy", "answer5": "Other"}
+{"Question": "How clear were the instructions for the challenge?", "answer1": "Very clear", "answer2": "Clear", "answer3": "Neutral", "answer4": "Not clear", "answer5": "Other"}
+{"Question": "How satisfied were you with the support provided by the organizers?", "answer1": "Very satisfied", "answer2": "Satisfied", "answer3": "Neutral", "answer4": "Not satisfied", "answer5": "Other"}
+{"Question": "How would you rate the overall quality of the hackathon?", "answer1": "Very good", "answer2": "Good", "answer3": "Neutral", "answer4": "Bad", "answer5": "Other"}
+{"Question": "Would you recommend this hackathon to others?", "answer1": "Yes, definitely", "answer2": "Yes, probably", "answer3": "I don't know", "answer4": "No, probably not", "answer5": "No, definitely not"}
+{"Question": "What are your suggestions for improving the hackathon?", "answer1": "More time", "answer2": "Less difficult challenge", "answer3": "More support from the organizers", "answer4": "More resources", "answer5": "Other"}
+```

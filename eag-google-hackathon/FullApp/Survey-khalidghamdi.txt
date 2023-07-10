@@ -1,0 +1,11 @@
+```
+{"Question": "How easy was it to understand the material?", "answer1": "Very easy", "answer2": "Easy", "answer3": "Somewhat easy", "answer4": "Difficult", "answer5": "Very difficult"}
+{"Question": "What did you like the most about the class?", "answer1": "The content", "answer2": "The instructor", "answer3": "The pace", "answer4": "The exercises", "answer5": "Other"}
+{"Question": "What did you like the least about the class?", "answer1": "The content", "answer2": "The instructor", "answer3": "The pace", "answer4": "The exercises", "answer5": "Other"}
+{"Question": "Would you recommend this class to others?", "answer1": "Yes", "answer2": "No", "answer3": "I'm not sure", "answer4": "Other", "answer5": "Other"}
+{"Question": "What could be improved about the class?", "answer1": "The content", "answer2": "The instructor", "answer3": "The pace", "answer4": "The exercises", "answer5": "Other"}
+{"Question": "How would you rate your overall experience in this class?", "answer1": "Very good", "answer2": "Good", "answer3": "Somewhat good", "answer4": "Bad", "answer5": "Very bad"}
+{"Question": "What are your thoughts on the use of technology in the class?", "answer1": "I think it was used effectively", "answer2": "I think it could be used more effectively", "answer3": "I think it was not used effectively", "answer4": "I don't know", "answer5": "Other"}
+{"Question": "How do you think the class prepared you for your career?", "answer1": "It prepared me very well", "answer2": "It prepared me somewhat well", "answer3": "It did not prepare me well", "answer4": "It did not prepare me at all", "answer5": "Other"}
+{"Question": "What are your thoughts on the overall quality of the class?", "answer1": "Excellent", "answer2": "Good", "answer3": "Satisfactory", "answer4": "Unsatisfactory", "answer5": "Other"}
+{"Question": "Do you have any other comments or suggestions?", "answer1": "No", "answer2": "Yes", "answer3": "I'd rather not say", "answer4": "Other", "answer5": "Other"}
