@@ -227,4 +227,4 @@ def analyze(survey_id):
     return {"response": response.text}
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
