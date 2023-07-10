@@ -75,7 +75,7 @@ def survey():
         
         with open(result_file, 'w') as f:
             f.write(res)
-        
+        analyze(1)
         return "Thank you for completing the survey!"
     
     else:
@@ -102,6 +102,18 @@ def survey_sel():
     # Process the survey data and pass it to the template
     # Return the rendered template with the survey data
     return redirect(url_for('survey', survey_name=survey_name))
+
+
+@app.route('/survey_analysis')
+def survey_analysis():
+    # Load the survey file based on the survey_name variable
+    # Process the survey data and pass it to the template
+    # Return the rendered template with the survey data
+    with open("SurveyAnalysis.txt", 'r') as file:
+        analysis_txt = file.read()
+
+    return render_template('survey_analysis.html', analysis_txt=analysis_txt)
+
 
 #Functions
 
@@ -176,7 +188,43 @@ def generate_surveys(survey_info, goal, numq):
         file_path = "Survey-" + str(row['name']) + ".txt"  # Replace with the actual path to your file
         with open(file_path, "w") as file:
             file.write(str(response))
+
+
+def analyze(survey_id):
+    """
+    Endpoint to handle chat.
+    Receives a message from the user, processes it, and returns a response from the model.
+    """
+    parameters = {
+        "temperature": 0.9,
+        "max_output_tokens": 1024,
+        "top_p": 0.8,
+        "top_k": 40,
+    }
+
+    survey_files = [filename for filename in os.listdir('.') if filename.startswith('Result')]
+    results = ""
+
+    for file in survey_files:
+        with open(file, 'r') as f:
+            results += f.read()
     
+    with open("AnalysisPrompt.txt", "r") as file:
+        prompt = file.read()
+    
+    prompt = prompt.replace("<QA>", results)
+   
+    # Send the human message to the model and get a response
+    model = TextGenerationModel.from_pretrained("text-bison@001")
+    response = model.predict(prompt, **parameters)
+
+    file_path = "SurveyAnalysis.txt"  # Replace with the actual path to your file
+    with open(file_path, "w") as file:
+        file.write(str(response))
+
+
+    # Return the model's response
+    return {"response": response.text}
 
 if __name__ == '__main__':
     app.run(debug=True)

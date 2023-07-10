@@ -48,6 +48,9 @@
 </head>
 <body>
     <h1>Survey Application</h1>
+    <a href="{{ url_for('survey_analysis') }}">
+        <button>Survey Analysis</button>
+    </a>
     <form method="POST" enctype="multipart/form-data">
         <label for="survey_type">Survey Type:</label>
         <select name="survey_type" id="survey_type">
