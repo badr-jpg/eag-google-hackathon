@@ -14,7 +14,7 @@ import os
 # Load the service account json file
 # Update the values in the json file with your own
 with open(
-    "/service_account.json"
+    "service_account.json"
 ) as f:  # replace 'serviceAccount.json' with the path to your file if necessary
     service_account_info = json.load(f)
 
