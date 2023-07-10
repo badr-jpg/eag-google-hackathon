@@ -1,0 +1,21 @@
+```
+{"Question": "Did you understand the material in the lecture?", "answer1": "yes", "answer2": "no", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+
+{"Question": "Did the lecturer use clear language?", "answer1": "yes", "answer2": "no", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+
+{"Question": "Did the lecturer use engaging examples?", "answer1": "yes", "answer2": "no", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+
+{"Question": "Did the lecturer use a variety of teaching methods?", "answer1": "yes", "answer2": "no", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+
+{"Question": "Was the lecture pace too fast?", "answer1": "yes", "answer2": "no", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+
+{"Question": "Was the lecture pace too slow?", "answer1": "yes", "answer2": "no", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+
+{"Question": "Was the lecture too long?", "answer1": "yes", "answer2": "no", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+
+{"Question": "Was the lecture too short?", "answer1": "yes", "answer2": "no", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+
+{"Question": "Were you able to follow along with the lecture?", "answer1": "yes", "answer2": "no", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+
+{"Question": "Do you have any other feedback about the lecture?", "answer1": "no", "answer2": "yes", "answer3": "I didn't pay attention", "answer4": "I didn't understand at first, but then I did", "answer5": "other"}
+```

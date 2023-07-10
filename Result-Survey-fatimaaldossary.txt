@@ -1,0 +1,4 @@
+
+Question: Did you understand the material in the lecture?: Answer: yes
+Question: Did the lecturer use clear language?: Answer: yes
+Question: Did the lecturer use engaging examples?: Answer: yes

@@ -1,0 +1,6 @@
+
+Question: How would you describe the difficulty of the challenge?: Answer: Too hard
+Question: How clear were the instructions for the challenge?: Answer: Very clear
+Question: How would you describe the overall experience of the hackathon?: Answer: Very positive
+Question: What did you like most about the hackathon?: Answer: The chance to learn new things
+Question: What did you like least about the hackathon?: Answer: The competition

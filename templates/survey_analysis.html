@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Analysis</title>
+    <style>
+        body {
+            background-color: #292B2F;
+            color: #E6E6E6;
+            font-family: Arial, sans-serif;
+        }
+        
+        h1 {
+            color: #FFFFFF;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #FFFFFF;
+        }
+        
+        select, input[type="file"] {
+            width: 200px;
+            padding: 5px;
+            border: none;
+            background-color: #40444B;
+            color: #E6E6E6;
+            margin-bottom: 10px;
+        }
+        
+        button[type="submit"] {
+            background-color: #7289DA;
+            color: #E6E6E6;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #677BC4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Survey Analysis</h1>
+    <p>{{ analysis_txt }}</p>
+</body>
+</html>

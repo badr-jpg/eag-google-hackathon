@@ -1,0 +1,19 @@
+{"Question": "What did you think of the overall challenge?", "answer1": "It was very challenging", "answer2": "It was challenging but fair", "answer3": "It was too easy", "answer4": "It was unclear", "answer5": "other"}
+
+{"Question": "How would you rate the level of difficulty of the challenge?", "answer1": "Very difficult", "answer2": "Difficult", "answer3": "Moderate", "answer4": "Easy", "answer5": "other"}
+
+{"Question": "How long did it take you to complete the challenge?", "answer1": "Less than 1 hour", "answer2": "1 to 2 hours", "answer3": "2 to 3 hours", "answer4": "3 to 4 hours", "answer5": "More than 4 hours"}
+
+{"Question": "How satisfied were you with the level of support you received from the organizers?", "answer1": "Very satisfied", "answer2": "Satisfied", "answer3": "Neutral", "answer4": "Dissatisfied", "answer5": "Very dissatisfied"}
+
+{"Question": "What was the most difficult part of the challenge for you?", "answer1": "Coming up with a good idea", "answer2": "Building the product", "answer3": "Testing the product", "answer4": "Getting the product to market", "answer5": "other"}
+
+{"Question": "What was the most rewarding part of the challenge for you?", "answer1": "Working with my team", "answer2": "Learning new things", "answer3": "Building something new", "answer4": "Getting recognition", "answer5": "other"}
+
+{"Question": "What would you like to see changed for the next hackathon?", "answer1": "More time", "answer2": "More support from the organizers", "answer3": "More clear instructions", "answer4": "More opportunities to collaborate", "answer5": "other"}
+
+{"Question": "What would you like to see added to the challenge?", "answer1": "More real-world problems", "answer2": "More opportunities to work with experts", "answer3": "More prizes", "answer4": "More opportunities to network", "answer5": "other"}
+
+{"Question": "What did you learn from the hackathon?", "answer1": "I learned how to build a product", "answer2": "I learned how to work in a team", "answer3": "I learned how to use Google Cloud Vertex AI", "answer4": "I learned how to solve real-world problems", "answer5": "other"}
+
+{"Question": "How likely are you to recommend this hackathon to others?", "answer1": "Very likely", "answer2": "Likely", "answer3": "Neutral", "answer4": "Unlikely", "answer5": "Very unlikely"}

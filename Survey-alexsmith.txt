@@ -1,0 +1,12 @@
+```
+{"Question": "How was the lecture overall?", "answer1": "Very easy", "answer2": "Easy", "answer3": "Somewhat difficult", "answer4": "Difficult", "answer5": "Other"}
+{"Question": "How was the pace of the lecture?", "answer1": "Too slow", "answer2": "Good", "answer3": "Too fast", "answer4": "Other", "answer5": "I don't know"}
+{"Question": "How was the content of the lecture?", "answer1": "Too basic", "answer2": "Good", "answer3": "Too advanced", "answer4": "Other", "answer5": "I don't know"}
+{"Question": "How was the lecturer's delivery?", "answer1": "Very clear", "answer2": "Clear", "answer3": "Somewhat unclear", "answer4": "Unclear", "answer5": "Other"}
+{"Question": "How was the lecturer's overall presentation?", "answer1": "Very good", "answer2": "Good", "answer3": "Somewhat bad", "answer4": "Bad", "answer5": "Other"}
+{"Question": "How would you rate the overall quality of the lecture?", "answer1": "Very good", "answer2": "Good", "answer3": "Somewhat bad", "answer4": "Bad", "answer5": "Other"}
+{"Question": "How would you rate the overall value of the lecture?", "answer1": "Very high", "answer2": "High", "answer3": "Somewhat low", "answer4": "Low", "answer5": "Other"}
+{"Question": "Would you recommend this lecture to other students?", "answer1": "Yes, definitely", "answer2": "Yes, probably", "answer3": "I don't know", "answer4": "No, probably not", "answer5": "No, definitely not"}
+{"Question": "What did you like most about the lecture?", "answer1": "The content", "answer2": "The lecturer's delivery", "answer3": "The overall presentation", "answer4": "Other", "answer5": "I don't know"}
+{"Question": "What did you like least about the lecture?", "answer1": "The content", "answer2": "The lecturer's delivery", "answer3": "The overall presentation", "answer4": "Other", "answer5": "I don't know"}
+```

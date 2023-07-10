@@ -1,0 +1,11 @@
+```
+{"Question": "How do you feel about the challenge difficulty?", "answer1": "Too hard", "answer2": "Just right", "answer3": "Too easy", "answer4": "I don't know", "answer5": "other"}
+{"Question": "How do you feel about the hackathon experience?", "answer1": "Very positive", "answer2": "Positive", "answer3": "Neutral", "answer4": "Negative", "answer5": "other"}
+{"Question": "How likely are you to participate in another hackathon?", "answer1": "Very likely", "answer2": "Likely", "answer3": "Not likely", "answer4": "Not at all likely", "answer5": "other"}
+{"Question": "What was your favorite part of the hackathon?", "answer1": "Working with my team", "answer2": "Learning new things", "answer3": "Solving the problem", "answer4": "Meeting new people", "answer5": "other"}
+{"Question": "What was your least favorite part of the hackathon?", "answer1": "Not enough time", "answer2": "Too much competition", "answer3": "Not enough resources", "answer4": "Not enough guidance", "answer5": "other"}
+{"Question": "What could be improved about the hackathon?", "answer1": "More time", "answer2": "Less competition", "answer3": "More resources", "answer4": "More guidance", "answer5": "other"}
+{"Question": "What suggestions do you have for future hackathons?", "answer1": "More time", "answer2": "Less competition", "answer3": "More resources", "answer4": "More guidance", "answer5": "other"}
+{"Question": "What was the most challenging part of the hackathon?", "answer1": "Coming up with a good idea", "answer2": "Developing the product", "answer3": "Testing the product", "answer4": "Marketing the product", "answer5": "other"}
+{"Question": "What was the most rewarding part of the hackathon?", "answer1": "Working with my team", "answer2": "Solving the problem", "answer3": "Meeting new people", "answer4": "Getting recognition", "answer5": "other"}
+{"Question": "What did you learn from the hackathon?", "answer1": "New skills", "answer2": "New ways of thinking", "answer3": "New technologies", "answer4": "New people", "answer5": "other"}
