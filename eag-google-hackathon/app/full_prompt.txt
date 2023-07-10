@@ -5,10 +5,13 @@ The four sections are "Scenario Information", "Survey Information", "Participant
 Scenario Information: The scenario is a hackathon event where participants must develop a product that solves a problem in a short amount of time.
 
 
-Survey Information: 
+Survey Information: A hackathon event where participants must develop a product that solves a problem in a short amount of time.
+The challenge is to develop an MVP of a product that leverages the power of Google Cloud Vertex AI model to solve real-world problems. To participate in the hackathon, you need to create or join a team on the lablab platform.
 
 
 Goal : Determine how the participants felt about the challenge. Was it too hard, too easy, unclear? The questions should help us evaluate how well recieved the hackathon was.
+
+Participant Details: Graphics designer from Saudi Arabia with 2 years of experience. Studied abroad in UK for a Graphics Design degree. Works in advertising industry.  
 
 
 

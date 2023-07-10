@@ -1,0 +1,28 @@
+{"Question": "How would you rate the difficulty of the challenge?", "answer1": "Too easy", "answer2": "Just right", "answer3": "Too hard", "answer4": "Not sure", "answer5": "other"}
+
+
+{"Question": "How well did you understand the challenge?", "answer1": "Very well", "answer2": "Somewhat well", "answer3": "Not well", "answer4": "Not at all", "answer5": "other"}
+
+
+{"Question": "What did you like most about the challenge?", "answer1": "The opportunity to learn new things", "answer2": "The chance to work with other people", "answer3": "The opportunity to use my skills", "answer4": "The challenge itself", "answer5": "other"}
+
+
+{"Question": "What did you like least about the challenge?", "answer1": "The time constraints", "answer2": "The difficulty of the challenge", "answer3": "The lack of support", "answer4": "The lack of resources", "answer5": "other"}
+
+
+{"Question": "What could be improved about the challenge?", "answer1": "More time", "answer2": "Less difficult", "answer3": "More support", "answer4": "More resources", "answer5": "other"}
+
+
+{"Question": "Would you recommend this challenge to others?", "answer1": "Yes", "answer2": "No", "answer3": "Maybe", "answer4": "Not sure", "answer5": "other"}
+
+
+{"Question": "What are your thoughts on the hackathon event?", "answer1": "It was a great experience", "answer2": "It was okay", "answer3": "It was not a good experience", "answer4": "Not sure", "answer5": "other"}
+
+
+{"Question": "How likely are you to participate in a future hackathon?", "answer1": "Very likely", "answer2": "Somewhat likely", "answer3": "Not likely", "answer4": "Not at all", "answer5": "other"}
+
+
+{"Question": "What other feedback do you have about the challenge?", "answer1": "None", "answer2": "I would like to provide feedback in private", "answer3": "I would like to provide feedback publicly", "answer4": "Not sure", "answer5": "other"}
+
+
+{"Question": "What are your thoughts on the hackathon platform?", "answer1": "It was easy to use", "answer2": "It was difficult to use", "answer3": "It was not a good platform", "answer4": "Not sure", "answer5": "other"}

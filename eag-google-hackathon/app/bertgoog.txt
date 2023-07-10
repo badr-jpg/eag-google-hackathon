@@ -1,0 +1,11 @@
+```
+{"Question": "How would you describe the challenge?", "answer1": "Too hard", "answer2": "Too easy", "answer3": "Just right", "answer4": "Not challenging enough", "answer5": "other"}
+{"Question": "How would you describe the instructions?", "answer1": "Too hard to understand", "answer2": "Too easy to understand", "answer3": "Just right", "answer4": "Not clear enough", "answer5": "other"}
+{"Question": "How would you describe the platform?", "answer1": "Too hard to use", "answer2": "Too easy to use", "answer3": "Just right", "answer4": "Not user-friendly enough", "answer5": "other"}
+{"Question": "How would you describe the support?", "answer1": "Not helpful", "answer2": "Helpful", "answer3": "Very helpful", "answer4": "Not enough support", "answer5": "other"}
+{"Question": "How would you describe the community?", "answer1": "Not helpful", "answer2": "Helpful", "answer3": "Very helpful", "answer4": "Not enough community", "answer5": "other"}
+{"Question": "What was the best part of the hackathon?", "answer1": "The challenge", "answer2": "The instructions", "answer3": "The platform", "answer4": "The support", "answer5": "The community", "answer6": "Other"}
+{"Question": "What was the worst part of the hackathon?", "answer1": "The challenge", "answer2": "The instructions", "answer3": "The platform", "answer4": "The support", "answer5": "The community", "answer6": "Other"}
+{"Question": "What would you like to see changed in the next hackathon?", "answer1": "The challenge", "answer2": "The instructions", "answer3": "The platform", "answer4": "The support", "answer5": "The community", "answer6": "Other"}
+{"Question": "How likely are you to participate in another hackathon?", "answer1": "Not at all likely", "answer2": "Not very likely", "answer3": "Somewhat likely", "answer4": "Very likely", "answer5": "Extremely likely"}
+{"Question": "What other feedback do you have about the hackathon?", "answer1": "None", "answer2": "I have some feedback", "answer3": "I have a lot of feedback", "answer4": "I have a lot of suggestions", "answer5": "I have a lot of complaints"}

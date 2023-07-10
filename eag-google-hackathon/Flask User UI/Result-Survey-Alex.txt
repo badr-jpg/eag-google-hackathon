@@ -1,0 +1,4 @@
+
+Question: How would you describe the difficulty of the challenge?: Answer: Too easy
+Question: How clear were the instructions for the challenge?: Answer: Very clear
+Question: How would you describe the overall experience of the hackathon?: Answer: Very positive

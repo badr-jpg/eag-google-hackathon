@@ -39,7 +39,34 @@ window.onload = function() {
     form.addEventListener('submit', function(event) {
       event.preventDefault();
       // Here you can add the code to submit the form and generate the survey
+      const { spawn } = require('child_process');
+
+      // Define the Python file path and arguments
+      const pythonFilePath = '/home/ns/Documents/google-vertex-ai-hackathon/eag-google-hackathon-new/eag-google-hackathon/eag-google-hackathon/app/main.py';
+      const arguments = ['arg1', 'arg2', 'arg3'];
+
+      // Spawn a new Python process
+      const pythonProcess = spawn('python', [pythonFilePath, ...arguments]);
+
+      // Handle output from the Python process
+      pythonProcess.stdout.on('data', (data) => {
+        // Handle stdout data
+        console.log(`Python stdout: ${data}`);
+      });
+
+      pythonProcess.stderr.on('data', (data) => {
+        // Handle stderr data
+        console.error(`Python stderr: ${data}`);
+      });
+
+      pythonProcess.on('close', (code) => {
+        // Handle process close
+        console.log(`Python process exited with code ${code}`);
+      });
+
       console.log('Survey generated!');
     });
   }
 }
+
+

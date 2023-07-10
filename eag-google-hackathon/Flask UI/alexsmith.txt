@@ -1,0 +1,19 @@
+{"Question": "How would you rate the difficulty of the challenge?", "answer1": "Too easy", "answer2": "Just right", "answer3": "Too hard", "answer4": "I didn't have enough time", "answer5": "other"}
+
+{"Question": "How well did the challenge match your skill level?", "answer1": "Too easy", "answer2": "Just right", "answer3": "Too hard", "answer4": "I didn't have enough time", "answer5": "other"}
+
+{"Question": "How well did the challenge align with your interests?", "answer1": "Very well", "answer2": "Somewhat", "answer3": "Not very well", "answer4": "Not at all", "answer5": "other"}
+
+{"Question": "How would you rate the clarity of the challenge instructions?", "answer1": "Very clear", "answer2": "Somewhat clear", "answer3": "Not very clear", "answer4": "Not at all clear", "answer5": "other"}
+
+{"Question": "How would you rate the quality of the resources provided?", "answer1": "Very good", "answer2": "Good", "answer3": "Fair", "answer4": "Poor", "answer5": "other"}
+
+{"Question": "How would you rate the overall experience of the hackathon?", "answer1": "Very positive", "answer2": "Positive", "answer3": "Neutral", "answer4": "Negative", "answer5": "other"}
+
+{"Question": "What did you like most about the hackathon?", "answer1": "The challenge itself", "answer2": "The resources provided", "answer3": "The community", "answer4": "The prizes", "answer5": "other"}
+
+{"Question": "What did you like least about the hackathon?", "answer1": "The challenge itself", "answer2": "The resources provided", "answer3": "The community", "answer4": "The prizes", "answer5": "other"}
+
+{"Question": "What suggestions do you have for improving the hackathon?", "answer1": "Make the challenge more difficult", "answer2": "Make the challenge less difficult", "answer3": "Make the challenge more aligned with my interests", "answer4": "Provide better resources", "answer5": "other"}
+
+{"Question": "Would you recommend this hackathon to others?", "answer1": "Yes", "answer2": "No", "answer3": "I'm not sure", "answer4": "other"}

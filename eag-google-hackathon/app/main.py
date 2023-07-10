@@ -7,6 +7,7 @@ from vertexai.preview.language_models import ChatModel, InputOutputTextPair, Tex
 from fastapi.openapi.docs import get_swagger_ui_html, get_redoc_html
 import vertexai
 import json  # add this line
+import pandas as pd
 
 # Load the service account json file
 # Update the values in the json file with your own
@@ -87,29 +88,33 @@ async def handle_chat(human_msg: str):
     #     # chat context and examples go here
     # )
     # Build the prompt
-    with open("SurveyInfo.txt", "r") as file:
-        survey_info = file.read()
-    with open("ScenarioInfo.txt", "r") as file:
-        scenario_info = file.read()
-    with open("PromptSkeleton.txt", "r") as file:
-        prompt = file.read()
-    
-    prompt_path = "full_prompt.txt"
-    prompt = prompt.replace("<SURVEY_INFO>", survey_info)
-    prompt = prompt.replace("<SCENARIO_INFO>", scenario_info)
-    prompt = prompt.replace("<NUM_QUESTIONS>", "10")
-    prompt = prompt.replace("<GOAL>", "Determine how the participants felt about the challenge. Was it too hard, too easy, unclear? The questions should help us evaluate how well recieved the hackathon was.")
-    with open(prompt_path, "w") as file:
-        file.write(str(prompt))
+    users_dets = pd.read_csv("UserDetails.csv")
 
-    # Send the human message to the model and get a response
-    model = TextGenerationModel.from_pretrained("text-bison@001")
-    response = model.predict(prompt, **parameters)
-    # response = chat.send_message(prompt, **parameters)
+    for index, row in users_dets.iterrows():
+        with open("SurveyInfo.txt", "r") as file:
+            survey_info = file.read()
+        with open("ScenarioInfo.txt", "r") as file:
+            scenario_info = file.read()
+        with open("PromptSkeleton.txt", "r") as file:
+            prompt = file.read()
 
-    file_path = "response.txt"  # Replace with the actual path to your file
-    with open(file_path, "w") as file:
-        file.write(str(response))
+        prompt_path = "full_prompt.txt"
+        prompt = prompt.replace("<PD>", row['description'])
+        prompt = prompt.replace("<SURVEY_INFO>", survey_info)
+        prompt = prompt.replace("<SCENARIO_INFO>", scenario_info)
+        prompt = prompt.replace("<NUM_QUESTIONS>", "10")
+        prompt = prompt.replace("<GOAL>", "Determine how the participants felt about the challenge. Was it too hard, too easy, unclear? The questions should help us evaluate how well recieved the hackathon was.")
+        with open(prompt_path, "w") as file:
+            file.write(str(prompt))
+
+        # Send the human message to the model and get a response
+        model = TextGenerationModel.from_pretrained("text-bison@001")
+        response = model.predict(prompt, **parameters)
+        # response = chat.send_message(prompt, **parameters)
+
+        file_path = str(row['name']) + ".txt"  # Replace with the actual path to your file
+        with open(file_path, "w") as file:
+            file.write(str(response))
 
 
     # Return the model's response

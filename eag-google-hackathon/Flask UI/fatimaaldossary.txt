@@ -1,0 +1,11 @@
+```
+{"Question": "What did you like most about the hackathon?", "answer1": "The opportunity to work on a real-world problem", "answer2": "The chance to learn new skills", "answer3": "The community atmosphere", "answer4": "The prizes", "answer5": "other"}
+{"Question": "What did you like least about the hackathon?", "answer1": "The time constraints", "answer2": "The lack of resources", "answer3": "The difficulty of the challenge", "answer4": "The competition", "answer5": "other"}
+{"Question": "How did you feel about the level of difficulty of the challenge?", "answer1": "It was too easy", "answer2": "It was just right", "answer3": "It was too difficult", "answer4": "I don't know", "answer5": "other"}
+{"Question": "How did you feel about the support you received from the organizers?", "answer1": "I felt well supported", "answer2": "I felt like I was on my own", "answer3": "I didn't need any support", "answer4": "I don't know", "answer5": "other"}
+{"Question": "How did you feel about the lablab platform?", "answer1": "It was easy to use", "answer2": "It was difficult to use", "answer3": "I didn't use it", "answer4": "I don't know", "answer5": "other"}
+{"Question": "What did you learn from the hackathon?", "answer1": "I learned about new technologies", "answer2": "I learned about new ways to solve problems", "answer3": "I learned about new people", "answer4": "I learned about myself", "answer5": "other"}
+{"Question": "How would you rate your overall experience of the hackathon?", "answer1": "Very good", "answer2": "Good", "answer3": "Okay", "answer4": "Bad", "answer5": "Very bad"}
+{"Question": "Would you recommend this hackathon to others?", "answer1": "Yes, definitely", "answer2": "Yes, but with some reservations", "answer3": "No, not really", "answer4": "No, definitely not", "answer5": "other"}
+{"Question": "What suggestions do you have for improving the hackathon?", "answer1": "Make the challenge more difficult", "answer2": "Make the challenge easier", "answer3": "Provide more resources", "answer4": "Provide more support", "answer5": "other"}
+{"Question": "Do you have any other comments or suggestions?", "answer1": "No", "answer2": "Yes", "answer3": "I don't know", "answer4": "other"}

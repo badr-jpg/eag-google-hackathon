@@ -1,0 +1,88 @@
+{
+  "Question": "How would you rate the difficulty of the challenge?",
+  "answer1": "Too easy",
+  "answer2": "Too hard",
+  "answer3": "Just right",
+  "answer4": "I didn't know what to do",
+  "answer5": "Other"
+}
+
+{
+  "Question": "How did you find the resources available to you during the hackathon?",
+  "answer1": "Very helpful",
+  "answer2": "Somewhat helpful",
+  "answer3": "Not helpful",
+  "answer4": "I didn't know where to find resources",
+  "answer5": "Other"
+}
+
+{
+  "Question": "How would you rate the overall experience of the hackathon?",
+  "answer1": "Very positive",
+  "answer2": "Positive",
+  "answer3": "Neutral",
+  "answer4": "Negative",
+  "answer5": "Other"
+}
+
+{
+  "Question": "What was your favorite part of the hackathon?",
+  "answer1": "Working on the project with my team",
+  "answer2": "Learning new things",
+  "answer3": "Meeting new people",
+  "answer4": "Winning the prize",
+  "answer5": "Other"
+}
+
+{
+  "Question": "What was your least favorite part of the hackathon?",
+  "answer1": "The time pressure",
+  "answer2": "The technical challenges",
+  "answer3": "The lack of resources",
+  "answer4": "The competition",
+  "answer5": "Other"
+}
+
+{
+  "Question": "What could be done to improve the hackathon experience?",
+  "answer1": "Give more time",
+  "answer2": "Provide more resources",
+  "answer3": "Make the challenges more clear",
+  "answer4": "Have more prizes",
+  "answer5": "Other"
+}
+
+{
+  "Question": "Would you recommend this hackathon to others?",
+  "answer1": "Yes",
+  "answer2": "No",
+  "answer3": "I don't know",
+  "answer4": "I'm not sure",
+  "answer5": "Other"
+}
+
+{
+  "Question": "What are your thoughts on the use of Google Cloud Vertex AI model in the hackathon?",
+  "answer1": "It was a great tool",
+  "answer2": "It was okay",
+  "answer3": "It was not helpful",
+  "answer4": "I didn't know how to use it",
+  "answer5": "Other"
+}
+
+{
+  "Question": "What are your thoughts on the lablab platform?",
+  "answer1": "It was easy to use",
+  "answer2": "It was difficult to use",
+  "answer3": "It was not helpful",
+  "answer4": "I didn't know how to use it",
+  "answer5": "Other"
+}
+
+{
+  "Question": "Do you have any other comments or suggestions?",
+  "answer1": "No",
+  "answer2": "Yes",
+  "answer3": "I don't know",
+  "answer4": "I'm not sure",
+  "answer5": "Other"
