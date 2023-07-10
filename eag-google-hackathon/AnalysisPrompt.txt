@@ -1,0 +1,6 @@
+Based on the below set of questions and answers from multiple survey's, Provide an overall sentimental analysis of the feedback from a scale between 1 and 10 where 1 is the most negative and 10 is the most positive:
+The format of your output should be a json following the form of {"Seniment": "3.21"}
+
+<QA>
+
+

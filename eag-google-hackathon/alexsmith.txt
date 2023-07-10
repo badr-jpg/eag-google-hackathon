@@ -1,0 +1,11 @@
+```
+{"Question": "Overall, how would you rate the hackathon?", "answer1": "Excellent", "answer2": "Good", "answer3": "Okay", "answer4": "Bad", "answer5": "Other"}
+{"Question": "What was your favorite part of the hackathon?", "answer1": "The challenge", "answer2": "The team", "answer3": "The prizes", "answer4": "The learning", "answer5": "Other"}
+{"Question": "What was your least favorite part of the hackathon?", "answer1": "The challenge", "answer2": "The team", "answer3": "The prizes", "answer4": "The learning", "answer5": "Other"}
+{"Question": "How well did you understand the challenge?", "answer1": "Very well", "answer2": "Well", "answer3": "Okay", "answer4": "Not well", "answer5": "Other"}
+{"Question": "How difficult was the challenge?", "answer1": "Very difficult", "answer2": "Difficult", "answer3": "Okay", "answer4": "Not difficult", "answer5": "Other"}
+{"Question": "How long did it take you to complete the challenge?", "answer1": "Less than an hour", "answer2": "1-2 hours", "answer3": "3-4 hours", "answer4": "5-6 hours", "answer5": "More than 6 hours"}
+{"Question": "What was your team's overall experience with the hackathon?", "answer1": "Excellent", "answer2": "Good", "answer3": "Okay", "answer4": "Bad", "answer5": "Other"}
+{"Question": "What could have been done to improve the hackathon?", "answer1": "More time", "answer2": "More resources", "answer3": "Better instructions", "answer4": "More support", "answer5": "Other"}
+{"Question": "Would you recommend this hackathon to others?", "answer1": "Yes", "answer2": "Maybe", "answer3": "No", "answer4": "I don't know", "answer5": "Other"}
+{"Question": "Do you have any other feedback about the hackathon?", "answer1": "No", "answer2": "Yes", "answer5": "Other"}

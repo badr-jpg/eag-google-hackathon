@@ -1,0 +1,24 @@
+You are tasked with generating a set of survey questions for a Hackathon Event to get feedback from users about their experience. Below, you will find three sections that describe the task and the information that the survey is based on as well as the details of the exact participant that this survey is targetting. 
+The three sections are "Survey Information", "Participant Details" and "Goal". You will use this information to genearte the survey questions.
+
+
+
+Survey Information: Class for data science
+
+Goal : Find out how complicated the lecture was from the students and their general experience.
+
+Participant Details: Graphics designer from Saudi Arabia with 2 years of experience. Studied abroad in UK for a Graphics Design degree. Works in advertising industry.  
+
+
+
+From this, you will generate 10 with the above goal, survey information and Scenario information. For each question, generate 5 possible multiple choice answers by following the below template JSON:
+
+{"Question": "This is a test question", "answer1": "example answer 1", "answer2": "example answer 2", "answer3": "example answer 3", "answer4": "example answer 4", "answer5": "other"}
+
+The final answer should always be "Other"
+
+
+Generate the survey questions below. ALL questions should follow the JSON format:
+
+
+
